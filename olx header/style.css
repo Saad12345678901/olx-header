@@ -1,0 +1,248 @@
+.searchbar, .hide, .row, .sections,.allcateg, .sell, .header, .motors, .property{
+    display: flex;
+}
+#ph{
+    text-align: left;
+    margin-left: 0px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size: large;
+    padding: 2px;
+    color: #012529;
+}
+.hide{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.hide div{
+    margin-left: 800px;
+    display: flex;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: large;
+    color: #3b89ff;
+    transition: cursor 0.3s ease;
+}
+.hide div:hover{
+    cursor: pointer;
+}
+.hide div svg{
+    stroke: #3b89ff;
+    margin: 18px;
+    margin-left: 2px;
+}
+.searchbar{
+    justify-content: space-between;
+    margin: 20px;
+    position: sticky;
+    border-bottom: 1px solid #dfe4e6;
+    padding-bottom: 15px;
+}
+.row{
+    justify-content: space-between;
+}
+.text{
+    display: block;
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+}
+.logo{
+    margin-top: -6px;
+}
+.header{
+    margin: 30px 20px;
+    gap: 20px;
+    position: sticky;
+}
+.sell{
+    border: 2px solid #002e33;
+    border-radius: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.heading{
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: #002e33;
+    margin-top: 2px;
+}
+.login{
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline 2px;
+    padding: 2px;
+    color: #002e33;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    margin-top: 4px;
+}
+#search{
+    stroke: white;
+    background-color: #002e33;
+    margin-left: -100px;
+    padding: 7px;
+    border: 1px solid #002e33;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.sections{
+    text-transform: capitalize;
+    color: #002e33;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 120px;
+}
+.allcateg, .categories p{
+    gap: 4px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.categories p{
+    font-size: 22px;
+    font-family: sans-serif;
+    color: #012529;
+    font-weight: bolder;
+}
+.icon{
+    border: 1px solid #dfe4e6;
+    border-radius: 50%;
+    margin-top: -9px;
+    padding: 8px;
+    vertical-align: middle;
+    background-color: #f3f4f4;
+}
+svg{
+    stroke: #002e33;
+}
+.svg{
+    fill: #002e33;
+}
+.searchlocation input, .searchproduct input{
+    border: none;
+    min-width: 300px;
+    outline: none;
+}
+.searchlocation input{
+    min-width: 200px;
+}
+.searchlocation, .searchproduct{
+    display: flex;
+    gap: 5px;
+    border: 1px solid #dfe4e6;
+    border-radius: 5px;
+    max-width: max-content;
+    padding: 3px;
+}
+.hero, .categories{
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.banner2{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.hero .banner1 img{
+    border-radius: 5px;
+}
+.product-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 23%;
+    max-height: max-content;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+    transition: scale 0.3s ease-in-out;
+  }
+  
+  .product-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: scale(105%);
+    cursor: pointer;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+  }
+  
+  .product-info {
+    padding: 15px;
+  }
+  
+  .product-info h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #007b5e;
+    margin-bottom: 5px;
+  }
+  
+  .location {
+    font-size: 14px;
+    color: #777;
+  }
+  .categ{
+    transition: scale 0.3s ease-in;
+    
+  }
+  .categ:hover{
+    transform: scale(103%);
+    cursor: pointer;
+  }
+  .allcateg{
+    cursor: pointer;
+  }
+  .trio{
+    cursor: pointer;
+    color: #002e33;
+  }
+  .trio:hover{
+    color: #3b89ff;
+  }
+  .login:hover{
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .sell{
+    cursor: pointer;
+    transition: scale 0.3s ease;
+  }
+  .sell:hover{
+    transform: scale(103%);
+  }
+  .searchlocation:active, .searchproduct:active{
+    border-color: aqua;
+  }
+  .heading:hover{
+    color: #3b89ff;
+  }
+  .buildingicon svg:hover{
+    stroke: #3b89ff;
+  }
+  .caricon svg:hover{
+    stroke: #3b89ff;
+  }
+  .property:hover, .motors:hover{
+    cursor: pointer;
+  }
+  
